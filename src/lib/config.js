@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const config = {
     app: {
-        port: process.env.APP_PORT || 80,
+        port: process.env.PORT || 80,
         jwtSecret: process.env.JWT_SECRET,
     },
     db: {
